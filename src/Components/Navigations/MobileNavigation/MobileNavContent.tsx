@@ -1,5 +1,5 @@
 import { X } from "lucide-react";
-import Accordion from "../UI/Accordion/Accordion";
+import Accordion from "../../UI/Accordion/Accordion";
 
 type MobileNavContentProps = {
   toggle: () => void;

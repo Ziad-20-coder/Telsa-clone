@@ -1,9 +1,9 @@
 import { MenuIcon } from "lucide-react";
-import { useNavControls } from "../../Hooks/useNavControls";
-import MobileNavContent from "./MobileNavContent";
+import { useNavControls } from "../../../Hooks/useNavControls";
+import MobileNavContent from "../MobileNavigation/MobileNavContent";
 
 const MobileNav = () => {
-  const { isOpen, toggle } = useNavControls()
+  const { isOpen, toggle } = useNavControls();
   return (
     <div className="sticky top-0 left-0 min-w-full min-h-full bg-white shadow-md">
       <div className="boundiries flex items-center justify-between">
@@ -15,13 +15,11 @@ const MobileNav = () => {
         />
         {/* menu button */}
         <button onClick={toggle}>
-          <MenuIcon strokeWidth={1.4}/>
+          <MenuIcon strokeWidth={1.4} />
         </button>
       </div>
       {/* Content nav condition */}
-      {isOpen && (
-        <MobileNavContent toggle={toggle}/>
-      )}
+      {isOpen && <MobileNavContent toggle={toggle} />}
     </div>
   );
 };
