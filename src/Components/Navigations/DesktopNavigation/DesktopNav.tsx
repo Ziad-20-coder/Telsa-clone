@@ -1,6 +1,6 @@
 import { CircleQuestionMark, CircleUser, Globe } from "lucide-react";
-import { useFetch } from "../../Hooks/useFetch";
-import type { Services } from "../../Types/services";
+import { useFetch } from "../../../Hooks/useFetch";
+import type { Services } from "../../../Types/services";
 
 const DesktopNav = () => {
   const url: string = "/src/data/services.json";

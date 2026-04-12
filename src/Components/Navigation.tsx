@@ -1,4 +1,4 @@
-import DesktopNav from "./Navigations/DesktopNav";
+import DesktopNav from "./Navigations/DesktopNavigation/DesktopNav";
 import MobileNav from "./Navigations/MobileNavigation/MobileNav";
 
 const Navigation = () => {
