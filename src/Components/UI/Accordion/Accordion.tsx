@@ -2,6 +2,7 @@ import { ChevronRight } from "lucide-react";
 import { useAccordion } from "../../../Hooks/useAccordion";
 import { useFetch } from "../../../Hooks/useFetch";
 import type { Services } from "../../../Types/services";
+import AccordionItems from "./AccordionItems";
 
 const url: string = "/src/data/services.json";
 
@@ -32,6 +33,9 @@ const Accordion = () => {
                 ) : null}
               </button>
             </div>
+            {isOpen(item) && (
+              <AccordionItems product={data.megaContent[item as keyof typeof data.megaContent]} />
+            )}
           </li>
         ))}
       </ul>

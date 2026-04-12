@@ -4,7 +4,7 @@ import MobileNav from "./Navigations/MobileNav"
 const Navigation = () => {
   return (
     <div>
-        <div className="hidden xl:block">
+        <div className="hidden lg:block">
             <DesktopNav />
         </div>
         <div className="block lg:hidden">
