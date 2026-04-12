@@ -1,30 +1,23 @@
-import { X } from "lucide-react"
-import { useFetch } from "../../Hooks/useFetch"
+import { X } from "lucide-react";
+import Accordion from "../UI/Accordion/Accordion";
 
 type MobileNavContentProps = {
-    toggle: () => void
-}
+  toggle: () => void;
+};
 
-const url: string = '/src/data/services.json'
-
-const MobileNavContent = ({toggle}: MobileNavContentProps) => {
-    const {data, isLoading, error} = useFetch(url)
-
-    if(isLoading) return <h1>Loading</h1>
-    if(error) return <h1>Error</h1>
-
+const MobileNavContent = ({ toggle }: MobileNavContentProps) => {
   return (
     <div className="absolute top-0 left-0 min-h-screen min-w-full bg-white">
-        <div className="boundiries flex items-center justify-end">
-            <button onClick={toggle}>
-                <X />  {/* close icon */}
-            </button>
-        </div>
-        <div>
-            
-        </div>
+      <div className="boundiries flex items-center justify-end">
+        <button onClick={toggle}>
+          <X /> {/* close icon */}
+        </button>
+      </div>
+      <div>
+        <Accordion />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default MobileNavContent
+export default MobileNavContent;
