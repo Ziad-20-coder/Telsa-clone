@@ -1,23 +1,17 @@
-import { useState } from "react";
+import { useContext } from "react";
+import { navContext } from "../Context/NavContext";
 
-export const useNavControls = <T>() => {
-  const [isOpen, setIsOpen] = useState<boolean>(false);
-  const [activeMenu, setActiveMenu] = useState<T | null>(null);
-  const [activeItem, setActiveItem] = useState<T | null>(null);
+export const useNavControls = () => {
+  const context = useContext(navContext)
 
-  const toggle = (): void => {
-    setIsOpen(() => !isOpen);
-  };
+  if(!context) throw new Error("failed to load context")
 
-  const mouseEnter = (item: T): void => {
-    setActiveMenu(item);
-    setActiveItem(item);
-  };
-
-  const mouseLeave = (): void => {
-    setActiveMenu(null);
-    setActiveItem(null);
-  };
-
-  return { toggle, isOpen, activeItem, activeMenu, mouseEnter, mouseLeave };
+  return {
+    toggle: context.toggle,
+    isOpen: context.isOpen,
+    activeMenu: context.activeMenu,
+    activeItem: context.activeItem,
+    mouseEnter: context.mouseEnter,
+    mouseLeave: context.mouseLeave
+  }
 };

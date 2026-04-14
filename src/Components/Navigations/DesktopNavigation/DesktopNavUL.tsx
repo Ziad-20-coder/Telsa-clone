@@ -8,7 +8,7 @@ const DesktopNavUL = () => {
 
   const { data, isLoading, error } = useFetch<Services>(url);
 
-  const { mouseEnter, activeMenu, activeItem } = useNavControls<Services>();
+  const { mouseEnter, activeMenu, activeItem } = useNavControls();
 
   if (isLoading) return <h1>Loading Content</h1>;
   if (error || !data) return <h1>Failed to load content</h1>;

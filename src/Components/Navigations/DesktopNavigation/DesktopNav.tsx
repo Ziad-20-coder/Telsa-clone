@@ -1,10 +1,13 @@
 import { CircleQuestionMark, CircleUser, Globe } from "lucide-react";
 import DesktopNavUL from "./DesktopNavUL";
+import { useNavControls } from "../../../Hooks/useNavControls";
 
 const DesktopNav = () => {
 
+  const {mouseLeave} = useNavControls()
+
   return (
-    <div className="sticky top-0 left-0 min-w-screen bg-white shadow-md">
+    <div onMouseLeave={mouseLeave} className="sticky top-0 left-0 min-w-screen bg-white shadow-md">
       <div className="boundiries flex items-center justify-between">
         <img
           src={"/src/assets/Tesla,_Inc.-Wordmark-Black-Logo.wine-cropped.svg"}
