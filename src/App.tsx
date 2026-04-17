@@ -1,3 +1,4 @@
+import Hero from "./Components/Hero"
 import Navigation from "./Components/Navigation"
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
   return (
     <>
       <Navigation />
+      <Hero />
     </>
   )
 }

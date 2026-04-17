@@ -20,7 +20,7 @@ const MobileNavContent = ({ toggle }: MobileNavContentProps) => {
       initial="hidden"
       animate="visible"
       exit="exit"
-      className="absolute top-0 left-0 min-h-screen min-w-full bg-white"
+      className="absolute top-0 left-0 min-h-screen min-w-full bg-white z-10"
     >
       <div className="boundiries flex items-center justify-end">
         <button onClick={toggle}>

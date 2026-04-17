@@ -39,7 +39,7 @@ const Accordion = () => {
         initial="hidden"
         animate="visible"
         exit="exit"
-        className="boundiries flex flex-col justify-center gap-10"
+        className="boundiries flex flex-col justify-center gap-10 z-10"
       >
         {Object.keys(data.megaContent)?.map((item) => (
           <motion.li

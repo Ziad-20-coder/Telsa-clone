@@ -1,0 +1,34 @@
+{
+  "Hero": [
+    {
+      "id": 1,
+      "type": "video",
+      "src": "/public/videos/mylivewallpapers-com-Firefly-and-Stelle-FHD.mp4",
+      "title": "Firefly",
+      "header": "Full Self-Driving (Supervised)",
+      "subHeader": "Available for $99/mo",
+      "mainBTN": "Demo FSD (Supervised)",
+      "subBTN": "Learn More"
+    },
+    {
+      "id": 2,
+      "type": "image",
+      "src": "/public/Images/Homepage-Promo-Model-3-Desktop-US-CA-MX.avif",
+      "title": "Model 3",
+      "header": "Model 3",
+      "subHeader": "0.99% APR Available",
+      "mainBTN": "Order Now",
+      "subBTN": "View Inventory"
+    }, 
+    {
+      "id": 3,
+      "type":"image",
+      "src": "/public/Images/Homepage-Promo-Meet-Model-Y-Desktop.avif",
+      "title": "model y",
+      "header": "Model Y",
+      "subHeader": "0% APR Available",
+      "mainBTN": "Order Now",
+      "subBTN": "View Inventory"
+    }
+  ]
+}
