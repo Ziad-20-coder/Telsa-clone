@@ -1,6 +1,7 @@
 import { MenuIcon } from "lucide-react";
 import { useNavControls } from "../../../Hooks/useNavControls";
 import MobileNavContent from "../MobileNavigation/MobileNavContent";
+import { AnimatePresence } from "motion/react";
 
 const MobileNav = () => {
   const { isOpen, toggle } = useNavControls();
@@ -19,7 +20,9 @@ const MobileNav = () => {
         </button>
       </div>
       {/* Content nav condition */}
-      {isOpen && <MobileNavContent toggle={toggle} />}
+      <AnimatePresence>
+        {isOpen && <MobileNavContent toggle={toggle} />}
+      </AnimatePresence>
     </div>
   );
 };
