@@ -2,12 +2,10 @@ import type { HeroElement } from "../../Types/Hero";
 
 const Media = ({
   item,
-  isActive,
 }: {
   item: HeroElement;
-  isActive: boolean;
 }) => {
-  const decide = `${isActive ? "absolute inset-0 h-full w-full object-cover" : "hidden"}`;
+  const decide = "absolute inset-0 h-full w-full object-cover";
   if (item.type === "video") {
     return (
       <video muted autoPlay loop className={decide}>

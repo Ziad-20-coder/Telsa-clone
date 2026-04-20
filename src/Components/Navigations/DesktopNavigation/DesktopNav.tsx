@@ -7,7 +7,7 @@ const DesktopNav = () => {
   const {mouseLeave} = useNavControls()
 
   return (
-    <div onMouseLeave={mouseLeave} className="sticky top-0 left-0 min-w-screen bg-white shadow-md">
+    <div onMouseLeave={mouseLeave} className="sticky top-0 left-0 min-w-screen bg-white shadow-md z-10">
       <div className="boundiries flex items-center justify-between">
         <img
           src={"/src/assets/Tesla,_Inc.-Wordmark-Black-Logo.wine-cropped.svg"}
