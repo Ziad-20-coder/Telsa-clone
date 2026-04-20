@@ -6,7 +6,6 @@ export interface HeroElement {
     id:        number;
     type:      string;
     src:       string;
-    title:     string;
     header:    string;
     subHeader: string;
     mainBTN:   string;

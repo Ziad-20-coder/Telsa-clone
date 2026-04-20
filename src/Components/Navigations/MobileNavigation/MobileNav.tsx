@@ -6,7 +6,7 @@ import { AnimatePresence } from "motion/react";
 const MobileNav = () => {
   const { isOpen, toggle } = useNavControls();
   return (
-    <div className="sticky top-0 left-0 min-w-full min-h-full bg-white shadow-md z-10">
+    <div className="sticky top-0 left-0 min-w-full min-h-full bg-white shadow-md z-50">
       <div className="boundiries flex items-center justify-between">
         {/* logo */}
         <img

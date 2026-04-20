@@ -13,7 +13,7 @@ const Media = ({
       </video>
     );
   } else {
-    return <img src={item.src} alt={item.title} className={decide} />;
+    return <img src={item.src} alt={item.header} className={decide} loading="lazy"/>;
   }
 };
 

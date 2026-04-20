@@ -1,10 +1,21 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary: #176cd4;
+  --color-secondary: #fff;
+}
+
 @layer components {
-    .boundiries {
-        @apply px-4 py-3 lg:px-12 lg:py-2
-    }
-    .icons-hover {
-        @apply p-2 hover:bg-black/20 cursor-pointer rounded-md transition-all duration-300
-    }
+  .boundiries {
+    @apply px-4 py-3 lg:px-12 lg:py-2;
+  }
+  .icons-hover {
+    @apply p-2 hover:bg-black/20 cursor-pointer rounded-md transition-all duration-300;
+  }
+  .primary-btn {
+    @apply text-center py-1.5 px-5 bg-primary rounded-sm;
+  }
+  .secondary-btn {
+    @apply text-center py-1.5 px-5 bg-secondary rounded-sm;
+  }
 }
