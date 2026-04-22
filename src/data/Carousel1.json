@@ -1,0 +1,49 @@
+{
+  "carousel": [
+    {
+      "id": 1,
+      "header": "Model 3",
+      "pLink": "",
+      "tag": "Sport Sedan",
+      "mainBTN": "Order Now",
+      "subBTN": "Learn More",
+      "image": "/Images/snapScrollImages/Homepage-Card-Model-3-Desktop-US_PR_MX.avif"
+    },
+    {
+      "id": 2,
+      "header": "Model Y",
+      "pLink": "Lease From $459/mo",
+      "tag": "Midsize SUV",
+      "mainBTN": "Order Now",
+      "subBTN": "Learn More",
+      "image": "/Images/snapScrollImages/Homepage-Vehicle-Card-Model-Y-Desktop-US-Snow.avif"
+    },
+    {
+      "id": 3,
+      "header": "Model X",
+      "pLink": "3.99% APR Available",
+      "tag": "Luxury SUV",
+      "mainBTN": "Order Now",
+      "subBTN": "Learn More",
+      "image": "/Images/snapScrollImages/Homepage-Card-Model-X-Desktop-US_PR_MX.avif"
+    },
+    {
+      "id": 4,
+      "header": "Model S",
+      "pLink": "3.99% APR Available",
+      "tag": "Luxury Sedan",
+      "mainBTN": "Order Now",
+      "subBTN": "Learn More",
+      "image": "/Images/snapScrollImages/Homepage-Card-Model-S-Desktop-US-v3.avif"
+    },
+    {
+      "id": 5,
+      "header": "Cyber Truck",
+      "pLink": "3.99% APR Available",
+      "tag": "Utility Truck",
+      "mainBTN": "Order Now",
+      "subBTN": "Learn More",
+      "image": "/Images/snapScrollImages/Homepage-Card-Cybertruck-Desktop-US_PR_MX.avif"
+    }
+  ]
+}

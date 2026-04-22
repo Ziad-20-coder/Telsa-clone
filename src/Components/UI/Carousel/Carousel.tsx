@@ -1,7 +1,9 @@
 
 const Carousel = () => {
   return (
-    <div>Carousel</div>
+    <div>
+
+    </div>
   )
 }
 
