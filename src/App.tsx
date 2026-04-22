@@ -1,5 +1,6 @@
 import Hero from "./Components/Hero"
 import Navigation from "./Components/Navigation"
+import Carousel from "./Components/UI/Carousel/Carousel"
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Navigation />
       <Hero />
+      <Carousel />
     </>
   )
 }
