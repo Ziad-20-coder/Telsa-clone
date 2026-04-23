@@ -8,7 +8,7 @@ function App() {
     <>
       <Navigation />
       <Hero />
-      <Carousel />
+      <Carousel url={'/src/data/Carousel1.json'}/>
     </>
   )
 }
