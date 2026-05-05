@@ -19,3 +19,7 @@
     @apply text-center py-1.5 px-5 bg-secondary rounded-sm;
   }
 }
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
