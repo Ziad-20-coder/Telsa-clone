@@ -1,35 +1,40 @@
-## **HELLO!**
+HELLO!
 
-this project is a clone of Tesla website.
+This project is a clone of the Tesla website.
 
-## why u picked that website?
-    1. i picked the tesla website because i found it have a lot of things i can learn from and it surely have.
-    2. i saw it will be a lot fun more than building random stuff and really build what people would use.
-    3. I loved the UI!
-    4. I want to that website to be the first project i show to a Recruiter and land my first job.
+**Why I picked this website?**
 
-## what u learned?
-    1. i leanred how important it is to make sure the components to be reusable since my previos projects where a miss
-    2. i learned Typescript in the active way instead of watching a video and not work with it in the real world.
-    3. i learned that u mostly don't make types your self because most of the time you will fail.
-    4. i learned how usefull and awesome it is to make ur own custom hooks!!
+1. I picked the Tesla website because I found it has a lot of things I can learn from — and it surely does.
+2. I saw it would be a lot more fun than building random stuff and actually build what people would use.
+3. I loved the UI!
+4. I want this website to be the first project I show to a recruiter and land my first job.
 
-    **!important! this project is not done yet so i will still learn a lot more.**
+**What I learned?**
 
-## Dependcices:
-    vite -> for making the project faster and smoother. it's just that good
-    @tailwindcss -> for customizing the UI
-    lucide-react -> for the icons in the project
-    motion -> to animate the important and moving stuff
-    react -> Obviously
-    react-dom -> **not used yet!** just in case i expand the project further more.
+1. I learned how important it is to make sure components are reusable — my previous projects were a mess.
+2. I learned TypeScript the active way, instead of watching a video and never using it in the real world.
+3. I learned that you mostly don't make types yourself because most of the time you will fail.
+4. I learned how useful and awesome it is to make your own custom hooks!
 
-## fun fact:
-    I built the project before in the past but used Javascript instead 😅
-    the previos one was terrible too. i had no knowledge of how to make reusable things so i repeated myself a lot 😂
+> **!important!** This project is not done yet, so I will still learn a lot more.
 
-## Quick tip:
-    1. use this -> npx quicktype src/data/services.json -o src/Types/services.ts --just-types | used to transform json to typescript types to change json file to typescript Types file
+**Dependencies:**
 
+- **vite** → for making the project faster and smoother. It's just that good.
+- **@tailwindcss** → for customizing the UI.
+- **lucide-react** → for the icons in the project.
+- **motion** → to animate the important and moving stuff.
+- **react** → obviously.
+- **react-dom** → not used yet. Just in case I expand the project further.
 
-if you read that all the way to the end, THANK YOU A LOT!!
+**Fun fact:**
+
+I built this project before in the past but used JavaScript instead 😅  
+The previous one was terrible too. I had no knowledge of how to make reusable things, so I repeated myself a lot 😂
+
+**Quick tip:**
+
+Use this → `npx quicktype src/data/services.json -o src/Types/services.ts --just-types`  
+It transforms JSON into TypeScript types automatically.
+
+If you read all the way to the end, THANK YOU A LOT!!
