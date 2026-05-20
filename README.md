@@ -1,4 +1,4 @@
-##**HELLO!**
+**HELLO!**
 
 This project is a clone of the Tesla website.
 
