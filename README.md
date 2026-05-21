@@ -26,6 +26,10 @@ This project is a clone of the Tesla website.
 - **react** → obviously.
 - **react-dom** → not used yet. Just in case I expand the project further.
 
+## SnapShoot
+  ![screenshoot of the website](./src/assets/Screenshot_٢٠٢٦٠٥٢١_١٥٤٦١٥.png)
+
+
 ## Fun fact:
 
 I built this project before in the past but used JavaScript instead 😅  
